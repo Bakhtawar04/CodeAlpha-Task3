@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+
+    <div class="bg">
+       <img src="img-audio/img-2.jpg" id="bg_img">
+    </div>
+    
+    <div class="container">
+      <div class="player_img">
+       <img src="img-audio/img-2.jpg" id="cover" class="active">
+        </div>
+        
+        <h2 id="title">Capital Letters</h2>                                                    
+        
+        <h3 id="artist">Lorem, ipsum dolor.</h3>
+        
+        <div class="player_progress" id="player_progress">      
+        <div class="progress" id="progress">
+        <div class="music_time">  
+        <span id="current_time">0:00</span>
+        <span id="duration">0:00</span>                                    
+         
+        </div>
+     </div> 
+</div>
+    
+    
+        <div class="controls">
+            <i class="fa fa-backward" title="previous" id="prev"></i>
+            <i class="fa fa-play playbtn" title="play" id="play"></i>
+            <i class="fa fa-forward "  title="next"  id="next"></i>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
